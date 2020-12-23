@@ -100,7 +100,7 @@ class Madis {
         var dia = data.getDate();
         var mes = data.getMonth()+1;
         var ano = data.getFullYear();
-        return `${dia}/${mes}/${ano};`
+        return `${dia}/${mes}/${ano}`;
     }
 
     private calculaIntervaloDias(DataInicio: Date, DataFim: Date){
